@@ -112,8 +112,7 @@ const translations: Record<Language, Translations> = {
     position4_phrase1: "Completed required tasks and contributed to enhancing the company's internal framework.",
     position4_phrase2: "Collaborated with coworkers to achieve daily objectives and meet project goals.",
     position4_phrase3: "Enhanced the overall user experience and efficiency of ePhilos AG's main SaaS solution.",
-    position4_phrase4: "Required Skills: Advanced JavaScript, PHP, SQL, Internal framework.",
-    position4_skills: "",
+    position4_phrase4: "Required Skills: Advanced JavaScript, PHP, SQL, Internal framework."
   },
   FR: {
     job_title: "Développeur Full Stack",
@@ -163,6 +162,11 @@ const translations: Record<Language, Translations> = {
   project2_skills: "Compétences: PHP, SQL, motifs de conception/architecturaux, conception ORM",
   project3_skills: "Compétences: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
   project4_skills: "Compétences: TailwindCSS, Javascript, Typescript, NodeJS",
+  position4_title: "Développeur Logiciel",
+  position4_phrase1: "Réalisé les tâches requises et contribué à l'amélioration du cadre interne de l'entreprise.",
+  position4_phrase2: "Collaboré avec les collègues pour atteindre les objectifs quotidiens et les objectifs du projet.",
+  position4_phrase3: "Amélioré l'expérience utilisateur globale et l'efficacité de la principale solution SaaS d'ePhilos AG.",
+  position4_phrase4: "Compétences requises: JavaScript avancé, PHP, SQL, Cadre interne.",
   },
   DE: {
     job_title: "Full Stack Entwickler",
@@ -211,7 +215,13 @@ const translations: Record<Language, Translations> = {
     project1_skills: "Fähigkeiten: TailwindCSS, Typescript, ReactJS, NextJS, Prisma, SQL",
     project2_skills: "Fähigkeiten: PHP, SQL, Design/Architektur-Muster, ORM-Design",
     project3_skills: "Fähigkeiten: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
-    project4_skills: "Fähigkeiten: TailwindCSS, Javascript, Typescript, NodeJS",    
+    project4_skills: "Fähigkeiten: TailwindCSS, Javascript, Typescript, NodeJS",
+    position4_title: "Softwareentwickler",
+    position4_phrase1: "Erledigte erforderliche Aufgaben und trug zur Verbesserung des internen Frameworks des Unternehmens bei.",
+    position4_phrase2: "Zusammengearbeitet mit Kollegen, um tägliche Ziele und Projektziele zu erreichen.",
+    position4_phrase3: "Verbesserte die Benutzererfahrung und Effizienz der Haupt-SaaS-Lösung von ePhilos AG.",
+    position4_phrase4: "Erforderliche Fähigkeiten: Fortgeschrittenes JavaScript, PHP, SQL, internes Framework."
+
   }
 };
 
