@@ -35,6 +35,10 @@ interface Translations {
   position3_phrase2: string;
   position3_phrase3: string;
   position3_phrase4: string;
+  position4_phrase1: string;
+  position4_phrase2: string;
+  position4_phrase3: string;
+  position4_phrase4: string;
   french: string;
   english: string;
   arabic: string;
@@ -104,11 +108,12 @@ const translations: Record<Language, Translations> = {
     project2_skills: "Required Skills: PHP, SQL, design/architectural patterns, ORM design",
     project3_skills: "Required Skills: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
     project4_skills: "Required Skills: TailwindCSS, Javascript, Typescript, NodeJS",
-    position4_title: "Software Developer",
+    position4_title: "Software Developer Intern",
     position4_phrase1: "Completed required tasks and contributed to enhancing the company's internal framework.",
     position4_phrase2: "Collaborated with coworkers to achieve daily objectives and meet project goals.",
     position4_phrase3: "Enhanced the overall user experience and efficiency of ePhilos AG's main SaaS solution.",
     position4_phrase4: "Required Skills: Advanced JavaScript, PHP, SQL, Internal framework.",
+    position4_skills: "",
   },
   FR: {
     job_title: "Développeur Full Stack",
