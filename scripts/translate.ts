@@ -55,6 +55,10 @@ interface Translations {
   project2_skills: string;
   project3_skills: string;
   project4_skills: string;
+  position4_title: string;
+  position4_date: string;
+  project5_skills: string;
+  project6_skills: string;
 }
 
 type Language = "EN" | "FR" | "DE";
@@ -103,16 +107,19 @@ const translations: Record<Language, Translations> = {
     project_title1: "Developed an open-source web development agency",
     project_title2: "Built a PHP Framework and ORM to develop more optimized webapps",
     project_title3: "Developed a modern and collaborative Wiki platform",
-    project_title4: "Crafted an all-inclusive platform for repair and maintenance services",
+    project_title4: "Developed a robust secrets manager platform tailored for developers",
     project1_skills: "Required Skills: TailwindCSS, Typescript, ReactJS, NextJS, Prisma, SQL",
     project2_skills: "Required Skills: PHP, SQL, design/architectural patterns, ORM design",
     project3_skills: "Required Skills: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
-    project4_skills: "Required Skills: TailwindCSS, Javascript, Typescript, NodeJS",
+    project4_skills: "Required Skills: Laravel, React, Typescript, Inertia.js, TailwindCSS",
     position4_title: "Developer Intern",
     position4_phrase1: "Completed tasks and enhanced the company's internal framework.",
     position4_phrase2: "collaborated with coworkers to achieve objectives and meet goals.",
     position4_phrase3: "Enhanced the user experience and efficiency of the main solution.",
-    position4_phrase4: "Required Skills: Advanced JavaScript, PHP, SQL, Internal framework."
+    position4_phrase4: "Required Skills: Advanced JavaScript, PHP, SQL, Internal framework.",
+    position4_date: "Aug 2024 - Present",
+    project5_skills: "Status: Continuously updated / Under developement",
+    project6_skills: "Source Code: Private / Propriatary"
   },
   FR: {
     job_title: "Développeur Full Stack",
@@ -157,16 +164,19 @@ const translations: Record<Language, Translations> = {
   project_title1: "Développé une agence de développement web open-source",
   project_title2: "Créé un Framework PHP et ORM pour des webapps plus optimisées",
   project_title3: "Développement d'une plateforme Wiki moderne et collaborative",
-  project_title4: "Créé une plateforme de services de réparation et maintenance",
+  project_title4: "Développement d'une plateforme robuste de gestion de secrets adaptée aux développeurs",
   project1_skills: "Compétences: TailwindCSS, Typescript, ReactJS, NextJS, Prisma, SQL",
   project2_skills: "Compétences: PHP, SQL, motifs de conception/architecturaux, conception ORM",
   project3_skills: "Compétences: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
-  project4_skills: "Compétences: TailwindCSS, Javascript, Typescript, NodeJS",
+  project4_skills: "Compétences: Laravel, React, Typescript, Inertia.js, TailwindCSS",
   position4_title: "Développeur Logiciel",
-  position4_phrase1: "Réalisé les tâches requises et contribué à l'amélioration du cadre interne de l'entreprise.",
-  position4_phrase2: "Collaboré avec les collègues pour atteindre les objectifs quotidiens et les objectifs du projet.",
-  position4_phrase3: "Amélioré l'expérience utilisateur globale et l'efficacité de la principale solution SaaS d'ePhilos AG.",
-  position4_phrase4: "Compétences requises: JavaScript avancé, PHP, SQL, Cadre interne.",
+  position4_phrase1: "Réalisé les tâches et contribué à l'amélioration du framework interne.",
+  position4_phrase2: "Collaboré avec les collègues pour atteindre les objectifs du projet.",
+  position4_phrase3: "Amélioré l'expérience utilisateur et l'efficacité de la solution principale.",
+  position4_phrase4: "Compétences requises: JavaScript avancé, PHP, SQL, Framework interne.",
+  position4_date: "Aug 2024 - Présent",
+  project5_skills: "Statut : Continuement mis à jour / En développement",
+  project6_skills: "Source Code: Privé / Propriatary"
   },
   DE: {
     job_title: "Full Stack Entwickler",
@@ -211,17 +221,19 @@ const translations: Record<Language, Translations> = {
     project_title1: "Entwickelt eine Open-Source Webentwicklungsagentur",
     project_title2: "Erstellt ein PHP-Framework und ORM zum Entwicklung optimierter webapps",
     project_title3: "Entwickelte eine moderne und kollaborative Wiki-Plattform",
-    project_title4: "Erschaffen einer all-in Plattform für Reparatur- und Wartungsdienste",
+    project_title4: "Entwickelte einer Geheimnisverwaltung-Plattform, die auf Entwickler zugeschnitten ist",
     project1_skills: "Fähigkeiten: TailwindCSS, Typescript, ReactJS, NextJS, Prisma, SQL",
     project2_skills: "Fähigkeiten: PHP, SQL, Design/Architektur-Muster, ORM-Design",
     project3_skills: "Fähigkeiten: TailwindCSS, Typescript, ReactJS, PHP, SimpleKit, UML, SQL",
-    project4_skills: "Fähigkeiten: TailwindCSS, Javascript, Typescript, NodeJS",
+    project4_skills: "Fähigkeiten: Laravel, React, Typescript, Inertia.js, TailwindCSS",
     position4_title: "Softwareentwickler",
-    position4_phrase1: "Erledigte erforderliche Aufgaben und trug zur Verbesserung des internen Frameworks des Unternehmens bei.",
-    position4_phrase2: "Zusammengearbeitet mit Kollegen, um tägliche Ziele und Projektziele zu erreichen.",
-    position4_phrase3: "Verbesserte die Benutzererfahrung und Effizienz der Haupt-SaaS-Lösung von ePhilos AG.",
-    position4_phrase4: "Erforderliche Fähigkeiten: Fortgeschrittenes JavaScript, PHP, SQL, internes Framework."
-
+    position4_phrase1: "Erledigte Aufgaben und trug zur Verbesserung des internen Frameworks bei.",
+    position4_phrase2: "Zusammengearbeitet mit Kollegen, um Projektziele zu erreichen.",
+    position4_phrase3: "Verbesserte die Benutzererfahrung und Effizienz der Hauptlösung",
+    position4_phrase4: "Erforderliche Fähigkeiten: Solides JavaScript, PHP, SQL, internes Framework.",
+    position4_date: "Aug 2024 - Jetzt",
+    project5_skills: "Status: Kontinuierlich aktualisiert / In Entwicklung",
+    project6_skills: "Source Code: Privat / Propriatary"
   }
 };
 
